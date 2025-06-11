@@ -42,3 +42,13 @@ Push to remote repository
 ```
 git push origin master
 ```
+
+## Git log
+
+Used to show commit history.
+
+To show compact view of log use:
+```
+git log --oneline
+```
+
