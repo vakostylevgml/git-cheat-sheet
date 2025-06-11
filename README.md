@@ -52,3 +52,8 @@ To show compact view of log use:
 git log --oneline
 ```
 
+## Commit messages
+
+There are few commit-message styles.
+
+Most popular are: Conventional Commits and GitHub-style
