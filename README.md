@@ -57,3 +57,14 @@ git log --oneline
 There are few commit-message styles.
 
 Most popular are: Conventional Commits and GitHub-style
+
+## Mermaid
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
