@@ -93,3 +93,18 @@ git reset --hard <commit hash>
 ```
 Commit hash here is the commit to which you would like to return.
 This commit will become HEAD.
+## Branches 
+Create a new branch and then use it:
+```
+git branch %BRANCH_NAME%
+git checkout %BRANCH_NAME%
+```
+Or in one line:
+```
+git checkout -b bugfix/fix-branch
+```
+To show all branches including remote use:
+```
+git branch -a
+
+```
