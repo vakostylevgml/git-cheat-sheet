@@ -68,3 +68,28 @@ graph LR;
 %% стрелка без текста для примера: 
   A --> B;
 ```
+
+## Commit edit
+
+To add more files to last commit use:
+```
+git commit --amend --no-edit
+```
+**Don't use this command if commit is already pushed to remote!**
+
+To edit commit message use:
+```
+git commit --amend -m "New message"
+```
+## Rollback
+To unstage file use:
+```
+git restore --staged <file>
+
+```
+To rollback commit use:
+```
+git reset --hard <commit hash>
+```
+Commit hash here is the commit to which you would like to return.
+This commit will become HEAD.
